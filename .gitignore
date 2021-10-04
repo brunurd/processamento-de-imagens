@@ -1,0 +1,10 @@
+# python
+__pycache__/
+*.pyc
+
+# poetry
+.venv/
+
+# pytest
+.coverage
+tests_report/
