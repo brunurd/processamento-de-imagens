@@ -11,13 +11,17 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
+      - name: poetry cache setup
+        uses: actions/cache@v2
+        with:
+          path: .venv
+          key: poetry-venv
+
       - name: install
-        run: |
-          pip install poetry
-          poetry install
+        run: make install
 
       - name: lint
-        run: poetry run lint
+        run: make lint
 
       - name: test
-        run: poetry run test
+        run: make test

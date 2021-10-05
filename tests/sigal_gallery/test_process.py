@@ -3,8 +3,8 @@ from sigal_gallery.process import process
 
 
 def test_process():
-    process(source="/home/ubuntu/pezaoshow/sigal_gallery/tests/mocks/src",
-            destination="/home/ubuntu/pezaoshow/sigal_gallery/tests/mocks/dest")
+    process(source="tests/mocks/src",
+            destination="tests/mocks/dest")
 
     generated_files = []
 

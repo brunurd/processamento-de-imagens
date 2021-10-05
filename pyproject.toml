@@ -20,8 +20,7 @@ pylint = "^2.11.1"
 autopep8 = "^1.5.7"
 
 [tool.poetry.scripts]
-lint = "scripts.lint:lint"
-test = "scripts.test:test"
+lint = "scripts.python.lint:lint"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
