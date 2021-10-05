@@ -14,3 +14,4 @@ images/src/*
 !images/src/.gitkeep
 images/dest/*
 !images/dest/.gitkeep
+tests/mocks/dest/
