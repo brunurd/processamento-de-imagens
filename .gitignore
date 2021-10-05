@@ -10,4 +10,7 @@ __pycache__/
 tests_report/
 
 # sigal
-images/dest/
+images/src/*
+!images/src/.gitkeep
+images/dest/*
+!images/dest/.gitkeep
