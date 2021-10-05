@@ -4,10 +4,10 @@ import subprocess
 def process(source=None, destination=None):
     if source is None and destination is None:
         subprocess.call(["sigal", "build"])
-    
-    elif source is None:    
+
+    elif source is None:
         subprocess.call(["sigal", "build", destination])
-    
+
     elif destination is None:
         subprocess.call(["sigal", "build", source])
 
@@ -17,4 +17,3 @@ def process(source=None, destination=None):
 
 if __name__ == "__main__":
     process()
-

@@ -8,6 +8,16 @@ jobs:
   test_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
+      - name: checkout
         uses: actions/checkout@v2
 
+      - name: install
+        run: |
+          pip install poetry
+          poetry install
+
+      - name: lint
+        run: poetry run lint
+
+      - name: test
+        run: poetry run test
