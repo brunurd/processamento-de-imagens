@@ -8,6 +8,7 @@ __pycache__/
 # pytest
 .coverage
 tests_report/
+.pytest_cache/
 
 # sigal
 images/src/*
