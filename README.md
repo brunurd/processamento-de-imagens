@@ -1,4 +1,4 @@
-# Sigal Gallery
+# Processamento de imagens
 Aplicação de otimização e geração de galeria de imagens para web.
 
 ## Pré-requisitos
