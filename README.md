@@ -1,8 +1,8 @@
 # Sigal Gallery
-Aplicação de galeria de imagens web.
+Aplicação de otimização e geração de galeria de imagens para web.
 
 ## Pré-requisitos
-- python 3.8.10
+- python 3.8
 - pip
 - bash
 - make
